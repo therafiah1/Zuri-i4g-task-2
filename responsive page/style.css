@@ -1,0 +1,96 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 50%;
+    height: 100%;
+    margin: 0 30%;
+}
+
+.container{
+    background-image: url(bg-intro-desktop.png);
+    background-color: rgb(216, 112, 112);
+    display: flex;
+    align-items: center;
+    
+    margin-top: 30px;
+    margin-bottom: 30;
+   
+    padding: 60px;
+}
+
+.box-item{
+    flex: 1;
+}
+
+.box-item:nth-child(2) form{
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    padding: 30px  20px;
+    margin: 5px 10px;
+    width: 250px;
+
+
+}
+
+form .input-g[type="text"]{
+    padding: 8px;
+    width: 90%;
+}
+
+form .input-g[type="email"]{
+    padding: 8px;
+    width: 90%;
+}
+
+form .input-g[type="password"]{
+    padding: 8px;
+    width: 90%;
+}
+
+form .btn2{
+    padding: 10px;
+    width: 100%;
+}
+
+form .btn1{
+    padding: 10px;
+    width: 100%;
+}
+
+.btn1{
+    border: 0;
+    padding: 15px;
+    background-color: rgb(83, 54, 109);
+    color: #fff;
+    justify-content: center;
+}
+
+.btn2{
+    border: 0;
+    padding: 20px;
+    background-color: rgb(25, 202, 143);
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+   font-size: 14px;
+}
+
+.lastp{
+    color: rgb(187, 177, 177);
+}
+
+strong{
+    color: rgb(173, 13, 13);
+}
+
+.s2{
+    color: #fff;
+    font-weight: 1000px; ;
+}
